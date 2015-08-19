@@ -1,0 +1,90 @@
+body { 
+	background: 
+	url("../images/anime.png") no-repeat center fixed,
+	url("../images/index.jpg") no-repeat center center fixed;
+	-webkit-background-size: 1200px 979px, cover;
+	-moz-background-size: 1200px 979px, cover;
+	-o-background-size: 1200px 979px, cover;
+	background-size: 1200px 979px, cover;
+	background-position:top right;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul {
+	list-style: none;
+	background-color: rgba(55, 55, 55, 0.9);
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	line-height: 50px;
+	height: 50px;
+	width:60px;
+	border-bottom: 1px solid #888;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.nav a:hover {
+	background-color: #303F9F;
+}
+
+.nav a.active {
+	background-color: #fff;
+	color: #444;
+	cursor: default;
+}
+ 
+.nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+
+@media screen and (min-width: 800px) {
+	.nav li {
+		width: 200px;
+		border-bottom: none;
+		height: 60px;
+		line-height: 60px;
+		font-size: 1.6em;
+	}
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+#footer {
+	background-color: rgba(25, 25, 25, 0.9);
+	border: 10px white double;
+	right:0;
+	height: 35%;
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+
+#footer p {
+	color: #e5e5e5;
+	font-size: 2.7em;
+	padding-left: 4%;
+	margin-top: 3%;
+	position:absolute;
+
+}
+
+#arrow {
+	color: #e5e5e5;
+	padding-left:94%;
+	font-size:4em;
+	bottom:6%;
+	position:absolute;
+}
